@@ -65,14 +65,14 @@ pip3 install -r requirements.txt
 引数などが確認できます。
 
 ```
-python3 ex_galapagos.py -h
+python3 main.py -h
 ```
 
 以下は、最少限の引数を使ったコマンド例です。  
 Google検索に使用するキーワードと、各ファイルを保存するディレクトリ名は必須です。
 
 ```
-python3 ex_galapagos.py -k 猫 -d cat
+python3 main.py -k 猫 -d cat
 ```
 
 以下は、全ての引数を使ったコマンド例です。  
@@ -80,5 +80,5 @@ python3 ex_galapagos.py -k 猫 -d cat
 Google検索に使用するキーワードは、半角スペース区切りで複数指定可能です。
 
 ```
-python3 ex_galapagos.py -k 猫 小さい -d cat_small -n 2 -c INFO
+python3 main.py -k 猫 小さい -d cat_small -n 2 -c INFO
 ```
